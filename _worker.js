@@ -86,7 +86,7 @@ const getCurrentColo = async () => {
 };
 const textEncoder = new TextEncoder(), textDecoder = new TextDecoder();
 const panelHtmlUrl = 'https://1345695.github.io/index-404-html/panel';
-const errorHtmlUrl = 'https://1345695.github.io/index-404-html';
+const errorHtml = '<!DOCTYPE html><html lang="zh">...极简 404 页面...</html>';
 import wasmModule from './protocol.wasm';
 const instance = new WebAssembly.Instance(wasmModule);
 const {
