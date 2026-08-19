@@ -84,8 +84,8 @@ const getCurrentColo = async () => {
     }
 };
 const textEncoder = new TextEncoder(), textDecoder = new TextDecoder();
-const panelHtmlUrl = 'https://1345695.github.io/index-404-html/panel';
-const errorHtmlUrl = 'https://1345695.github.io/index-404-html/';
+const panelHtmlUrl = 'https://www.bing.com/panel';
+const errorHtmlUrl = 'https://www.bing.com/';
 import wasmModule from './protocol.wasm';
 const instance = new WebAssembly.Instance(wasmModule);
 const {
