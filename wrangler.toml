@@ -6,15 +6,15 @@ minify = true
 # --- worker环境变量配置 ---
 [vars]
 # VLESS 的 UUID
-UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
+UUID = "2ac390a8-af38-45ef-bdc7-8a3c22d1ff0d"
 # Trojan 的密码
-PASSWORD = "666"
+PASSWORD = "5583"
 # SS使用aes128gcm加密的密码
-SSPASS = "666"
+SSPASS = "5583"
 # S5和HTTP 入站验证用户名 
-S5HTTPUSER = "admin"
+S5HTTPUSER = "5583"
 # S5和HTTP入站验证密码
-S5HTTPPASS = "123456"
+S5HTTPPASS = "5583"
 # 付费worker 可设置cpu时间限制
 [observability]
 enabled = false
