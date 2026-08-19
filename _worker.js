@@ -84,7 +84,7 @@ const getCurrentColo = async () => {
     }
 };
 const textEncoder = new TextEncoder(), textDecoder = new TextDecoder();
-const panelHtmlUrl = 'https://edcloudwasm.samcost200.workers.dev/panel';
+const panelHtmlUrl = 'https://1345695.github.io/index-404-html/panel';
 const errorHtmlUrl = 'https://edcloudwasm.samcost200.workers.dev/404.html';
 import wasmModule from './protocol.wasm';
 const instance = new WebAssembly.Instance(wasmModule);
